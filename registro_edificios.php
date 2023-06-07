@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registro De Un Edificio</title>
+</head>
+<body class="body">
+<form class="frm-login" action="inserciones/guardar_edificios.php" method="POST">
+        <h1 class="titulo">Registra un Edificio</h1>
+
+
+        <label for="Nombre" class="frm-label"> Nombre
+            <input class="frm-input" name="nom_edificio" type="text" placeholder="Nombre" required>
+        </label>
+
+        <div class="botones">
+            <input type="submit" class="btn1" value="Enviar">
+            <a href="principal_admin.php" class="btn2"><p> Cancelar</p></a>
+            
+        </div>
+
+
+</form>
+</body>
+</html>

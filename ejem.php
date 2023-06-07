@@ -33,7 +33,7 @@
       }
   }
 </script>
-
+<!-- 
 <style>
     h1 {
         color: green;
@@ -68,4 +68,4 @@
         transform: translateX(2px);
     }
      
-</style>
+</style> -->
